@@ -4,6 +4,8 @@
 
 [Відкрити демо](https://blade.92-5-167-222.sslip.io/) · [Перевірки](docs/VERIFICATION.md) · [Опис кейсу](docs/PORTFOLIO.md)
 
+[Кейс на Freelancehunt](https://freelancehunt.com/showcase/work/blade-onlayn-zapis-do-barbershopu-ta/2093301.html)
+
 ![Онлайн-запис BLADE](docs/screenshots/booking.png)
 
 ## Можливості

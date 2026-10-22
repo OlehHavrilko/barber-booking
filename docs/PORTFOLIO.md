@@ -2,6 +2,8 @@
 
 [Працююче демо](https://blade.92-5-167-222.sslip.io/) · [Код на GitHub](https://github.com/OlehHavrilko/barber-booking)
 
+[Робота на Freelancehunt](https://freelancehunt.com/showcase/work/blade-onlayn-zapis-do-barbershopu-ta/2093301.html)
+
 ## Завдання
 
 Створити зручний запис без дзвінків: клієнт обирає послугу, майстра та вільний час, а команда бачить візит у календарі.
