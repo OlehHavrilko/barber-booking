@@ -1,0 +1,8 @@
+.git
+.starter-backup
+node_modules
+data
+.env*
+outputs
+tests
+docs

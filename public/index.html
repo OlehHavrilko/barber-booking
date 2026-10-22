@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="BLADE — демонстраційний барбершоп. Онлайн-запис до майстра, вибір послуги та зручне керування розкладом.">
+  <meta name="theme-color" content="#f6f5f0"><title>BLADE — твій час, твій стиль</title>
+  <link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="header"><a href="/" class="logo" aria-label="BLADE — головна">BLADE<span>®</span><small>BARBER STUDIO</small></a><nav aria-label="Головна навігація"><button class="nav-item active" data-view="booking">Онлайн-запис</button><button class="nav-item" data-view="bookings">Мої записи <span id="booking-count" class="count hidden">0</span></button><button class="nav-item" data-view="admin"><span class="nav-icon">▦</span> Кабінет</button></nav><span class="header-note"><i></i> Київ · Europe/Kyiv</span></header>
+  <div id="app"><main class="loading-screen"><span class="spinner"></span><p>Готуємо твій наступний візит…</p></main></div>
+  <footer class="footer"><a class="wordmark" href="/">BLADE.</a><p>Хороша стрижка починається з простого запису.</p><span id="footer-mode">Портфоліо-проєкт · вигаданий барбершоп</span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="confirm-dialog"><form method="dialog"><span class="eyebrow">КЕРУВАННЯ ЗАПИСОМ</span><h2>Скасувати візит?</h2><p>Час знову стане доступним для запису.</p><div class="dialog-actions"><button value="no" class="button secondary">Залишити запис</button><button value="yes" class="button danger">Скасувати візит</button></div></form></dialog>
+  <noscript><p class="noscript">Для онлайн-запису увімкніть JavaScript у браузері.</p></noscript>
+</body></html>

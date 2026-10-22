@@ -1,0 +1,8 @@
+.starter-backup/
+node_modules/
+data/
+.env
+.env.*
+!.env.example
+outputs/
+*.log
